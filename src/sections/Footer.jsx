@@ -1,6 +1,6 @@
 import { copyrightSign } from "../assets/icons";
 import { footerLinks, socialMedia } from "../constants";
-
+import {Link} from "react-router-dom"
 const Footer = () => {
   return (
     <footer className='max-container'>
@@ -39,7 +39,7 @@ const Footer = () => {
                     className='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
                     key={link.name}
                   >
-                    <a href={link.link}>{link.name}</a>
+                 <Link to={link.link}>{link.name}</Link>
                   </li>
                 ))}
               </ul>

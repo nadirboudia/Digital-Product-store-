@@ -85,8 +85,8 @@ export const footerLinks = [
         links: [
             { name: "About us", link: "/" },
             { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
+            { name: "Terms", link: "/terms" },
+            { name: "Privacy policy", link: "/privacy" },
             { name: "Payment policy", link: "/" },
         ],
     },

@@ -1,6 +1,7 @@
 import { copyrightSign } from "../assets/icons";
 import { footerLinks, socialMedia } from "../constants";
 import {Link} from "react-router-dom"
+
 const Footer = () => {
   return (
     <footer className='max-container'>
@@ -59,7 +60,9 @@ const Footer = () => {
           />
           <p>© {new Date().getFullYear()} LLC. All rights reserved.</p>
         </div>
+        <Link to='terms'>
         <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
+        </Link>
       </div>
     </footer>
   );

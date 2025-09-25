@@ -1,5 +1,5 @@
 import { facebook, instagram , twitter } from "../assets/icons";
-import { digital1, digital2, digital3, customer1, customer2} from "../assets/images";
+import { digital1, digital2, digital3, customer1, customer2,com} from "../assets/images";
 
 
 export const navLinks = [
@@ -29,6 +29,41 @@ export const statistics = [
     { value: '1k+', label: 'Brands' },
     { value: '500+', label: 'Shops' },
     { value: '250k+', label: 'Customers' },
+];
+
+
+
+export const products = [
+  {
+    imgURL: com,
+    name: "Digital Template Pack",
+    price: "$29.20",
+  },
+  {
+    imgURL: com,
+    name: "E-book Collection",
+    price: "$19.20",
+  },
+  {
+    imgURL: com,
+    name: "Productivity Toolkit",
+    price: "$39.20",
+  },
+  {
+    imgURL: com,
+    name: "Business Dashboard Kit",
+    price: "$49.20",
+  },
+  {
+    imgURL: com,
+    name: "Marketing Plan Templates",
+    price: "$25.20",
+  },
+  {
+    imgURL: com,
+    name: "Social Media Toolkit",
+    price: "$35.20",
+  },
 ];
 
 

@@ -8,6 +8,7 @@ import {
   CustomerReviews,
   Footer,
   Hero,
+  PopularProducts,
   Services,
   SpecialOffer,
   Subscribe,
@@ -38,6 +39,9 @@ const App = () => {
                 </section>
                 <section className="padding-x py-10">
                   <Services />
+                </section>
+                <section>
+                  <PopularProducts/>
                 </section>
                 <section className="padding">
                   <SpecialOffer />

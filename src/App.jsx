@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Terms from "./Pages/Terms";
 import Privacy from "./Pages/Privacy";
 import ScrollTop from "./components/ScrollTop";
-
+import LandingWrapper from './components/LandingWrapper';
 import {
   CustomerReviews,
   Footer,
@@ -28,7 +28,8 @@ const App = () => {
           <Route
             path="/"
             element={
-              <>
+            <LandingWrapper>
+
                 <section className="xl:padding-l wide:padding-r padding-b">
                   <Hero />
                 </section>
@@ -47,11 +48,12 @@ const App = () => {
                 <section className="padding-x sm:py-32 py-16 w-full">
                   <Subscribe />
                 </section>
-              </>
+            </LandingWrapper>
             }
           />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
+         
         </Routes>
       </div>
 

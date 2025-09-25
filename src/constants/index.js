@@ -3,11 +3,12 @@ import { digital1, digital2, digital3, customer1, customer2} from "../assets/ima
 
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#Contact-us", label: "Contact Us" },
+  { id: "home", label: "Home" },
+  { id: "about-us", label: "About Us" },
+  { id: "products", label: "Products" },
+  { id: "Contact-us", label: "Contact Us" },
 ];
+
 
 export const product = [
     {

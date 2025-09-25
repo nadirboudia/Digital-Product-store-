@@ -9,12 +9,12 @@ const Hero = () => {
   const [digital, setDigital] = useState(digital1);
 
   return (
-    <section className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container ">
-      {/* النص */}
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:px-6 mt-[12%]">
+   <section className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container max-lg:mt-[17%]">
+
+      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:px-6 ">
         <p className="text-xl font-montserrat text-coral-red">Digital Products</p>
 
-        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[48px] max-sm:leading-[58px] font-bold">
+        <h1 className=" font-palanquin text-8xl max-sm:text-[48px] max-sm:leading-[58px] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
             LOSCO Company LLC
           </span>
@@ -50,11 +50,11 @@ const Hero = () => {
         <img
           src={digital}
           alt="digital product"
-          className="hidden lg:block w-[500px] h-auto"
+          className="hidden lg:block w-[470px] h-auto"
         />
 
         {/* الصور الصغيرة - تظهر فقط من lg وفوق */}
-        <div className="hidden lg:flex gap-4 absolute -bottom-[130px]">
+        <div className="hidden lg:flex gap-4 absolute -bottom-[150px]">
           {product.map((image, index) => (
             <ShoeCard
               key={index}
